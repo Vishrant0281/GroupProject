@@ -1,12 +1,8 @@
 <resources>
     <string name="app_name">Group Project</string>
-    <string name="todo">TODO</string>
+    <string name="todo">Image</string>
     <string name="txtSplash">Group Project</string>
-    <string name="login">Login</string>
     <string name="txtUsername">Username</string>
-    <string name="enterUsername">Enter Username</string>
-    <string name="edtPassword">Enter Password</string>
+    <string name="txtPass">Password</string>
     <string name="btnLogin">Login</string>
-    <string name="txtLogin">Login</string>
-    <string name="txtPassword">Password</string>
 </resources>
