@@ -5,4 +5,24 @@
     <string name="txtUsername">Username</string>
     <string name="txtPass">Password</string>
     <string name="btnLogin">Login</string>
+    <string name="btnContactus">Contact Us</string>
+    <string name="btnAboutus">About Us</string>
+    <string name="txtVishrant">Vishrant Rank</string>
+    <string name="image">TODO</string>
+    <string name="txtRiddhi">Riddhi Odedra</string>
+    <string name="txtDevendra">Devendra Dabhi</string>
+    <string name="imageD">TODO</string>
+    <string name="txtDes1">TextView</string>
+    <string name="txtDes2">TextView</string>
+    <string name="txtDes3">TextView</string>
+    <string name="textV">At Present, I am studying B.tech in Computer Engineering at RK University.</string>
+    <string name="textR">At Present, I am Studying B.tech in Computer Engineering at RK University.</string>
+    <string name="textD">At Present, I am Studying B.tech in Computer Engineering at RK University.</string>
+    <string name="txtM1">vrank988@gmail.com</string>
+    <string name="txtC1">+91 9687921603</string>
+    <string name="txtM2">rodedra165@rku.ac.in</string>
+    <string name="txtC2">+91 8160279242</string>
+    <string name="txtM3">ddabhi468@rku.ac.in</string>
+    <string name="txtC3">+91 7045451627</string>
+
 </resources>

@@ -26,7 +26,7 @@
         android:layout_height="wrap_content"
         android:layout_above="@+id/editPass"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="120dp"
+        android:layout_marginTop="100dp"
         android:autofillHints=""
         android:background="#11000000"
         android:drawableStart="@drawable/ic_action_user"
@@ -56,34 +56,21 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editUser" />
 
-    <androidx.cardview.widget.CardView
-        android:layout_width="300dp"
+    <Button
+        android:id="@+id/submit"
+        android:text="@string/btnLogin"
+        android:layout_width="250dp"
         android:layout_height="30dp"
-        app:cardBackgroundColor="@color/colorAccent"
-        app:cardCornerRadius="25dp"
-        app:cardElevation="10dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:backgroundTint="@color/colorAccent"
+        android:drawablePadding="10dp"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editPass"
-        app:layout_constraintVertical_bias="0.176">
-
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-
-            <TextView
-                android:id="@+id/btnLogin"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_centerInParent="true"
-                android:gravity="center"
-                android:text="@string/btnLogin"
-                android:textColor="#fff"
-                android:textSize="24sp" />
-        </RelativeLayout>
-
-    </androidx.cardview.widget.CardView>
+        tools:ignore="HardcodedText" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

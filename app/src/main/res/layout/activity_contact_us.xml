@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1E88E5"
+    tools:context=".ContactUs">
+
+    <TextView
+        android:id="@+id/textM1"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="245dp"
+        android:background="@drawable/button"
+        android:backgroundTint="@color/colorAccent"
+        android:drawableLeft="@drawable/ic_mail"
+        android:padding="5dp"
+        android:text="@string/txtM1"
+        android:textColor="#ffffff"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="RtlHardcoded" />
+
+    <TextView
+        android:id="@+id/txtC1"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/button"
+        android:backgroundTint="@color/colorAccent"
+        android:drawableLeft="@drawable/ic_call"
+        android:padding="5dp"
+        android:text="@string/txtC1"
+        android:textColor="#ffffff"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textM1"
+        tools:ignore="RtlHardcoded" />
+
+    <TextView
+        android:id="@+id/textM2"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/button"
+        android:backgroundTint="@color/colorAccent"
+        android:drawableLeft="@drawable/ic_call"
+        android:padding="5dp"
+        android:text="@string/txtM2"
+        android:textColor="#ffffff"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtC1"
+        tools:ignore="RtlHardcoded" />
+
+    <TextView
+        android:id="@+id/textC2"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/button"
+        android:backgroundTint="@color/colorAccent"
+        android:drawableLeft="@drawable/ic_call"
+        android:padding="5dp"
+        android:text="@string/txtC2"
+        android:textColor="#ffffff"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textM2"
+        tools:ignore="RtlHardcoded" />
+
+    <TextView
+        android:id="@+id/textM3"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/button"
+        android:backgroundTint="@color/colorAccent"
+        android:drawableLeft="@drawable/ic_call"
+        android:padding="5dp"
+        android:text="@string/txtM3"
+        android:textColor="#ffffff"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textC2"
+        tools:ignore="RtlHardcoded" />
+
+    <TextView
+        android:id="@+id/textC3"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/button"
+        android:backgroundTint="@color/colorAccent"
+        android:drawableLeft="@drawable/ic_call"
+        android:padding="5dp"
+        android:text="@string/txtC3"
+        android:textColor="#ffffff"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textM3"
+        tools:ignore="RtlHardcoded" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
