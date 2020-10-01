@@ -2,7 +2,7 @@
     <string name="app_name">Group Project</string>
     <string name="todo">Image</string>
     <string name="txtSplash">Group Project</string>
-    <string name="txtUsername">Username</string>
+    <string name="txtUsername">Name</string>
     <string name="txtPass">Password</string>
     <string name="btnLogin">Login</string>
     <string name="btnContactus">Contact Us</string>
